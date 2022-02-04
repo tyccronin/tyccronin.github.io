@@ -23,10 +23,6 @@
  bug 3 times out of the hundred times I've run this
  game. 
  
- This is a faster game of Pong, since I felt I was
- growing a beard watching the ball move so slowly
- otherwise.
- 
  So be ready!
  And of course
  Have fun!!
