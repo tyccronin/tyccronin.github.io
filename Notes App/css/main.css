@@ -100,3 +100,39 @@ body {
     resize: none;
     color: #fff;
 }
+
+@media screen and (max-width: 600px){
+    .notes__title,
+    .notes__body {
+        width: 100%;
+    }
+
+    .notes__add {
+        width: 75%;
+    }
+
+    .notes__sidebar {
+        width: 20%;
+    }
+
+    .notes__title {
+        font-size: 1.5em;
+    }
+
+    .notes__body {
+        font-size: 0.9em;
+    }
+
+    .notes__small-title {
+        font-size: 0.85em;
+    }
+
+    .notes__small-body {
+        font-size: 0.75em;
+    }
+
+    .notes__small-updated {
+        font-size: 0.7em;
+        text-align: left;
+    }
+}
