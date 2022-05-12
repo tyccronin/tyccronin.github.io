@@ -1,151 +1,338 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Ty Cronin Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Ty Cronin Portfolio</title>
+</head>
+<body>
+    <!--Header-->
+    <nav class="relative container text-white mx-auto p-6">
+        <div class="flex items-center justify-between">
+            <div class="pt-2 pr-4"></div>
+        </div>
+    </nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!--Hero Section-->
+    <section id="hero">
+        <!--Flex Container-->
+        <div class="container flex flex-col-reverse text-white md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <!--Left Item-->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-3xl font-bold text-center md:text-5xl md:text-left">
+                    I Am One Absolute Geek.
+                </h1>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                    I've always been a devout student and advocate of technology. 
+                    I have a passion for software engineering, and good front-end design.
+                    Check out what I've built, and contact me if you'd like to collaborate!
+                    <a class="text-white text-bold text-lg hover:text-purple-600 hover:text-xl" href="mailto:tyccronin&#64gmail&#46com">tyccronin@gmail.com</a>
+                </p>
+            </div>
+            <div class="bg-left-top md:w-1/2"></div>
+        </div>
+    </section>
 
-				<!-- Intro -->
-					<section class="intro">
-						<header>
-							<h1>Ty Cronin</h1>
-							<p>Student | Developer | Nerd</p>
-							<ul class="actions">
-								<li><a href="#first" class="scrolly arrow"> <!-- Arrow SVG -->
-									<svg stroke="transparent" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="4em" width="4em" xmlns="http://www.w3.org/2000/svg">
-										<path d="M3.723.666c-.08-.276.08-.47.356-.47h2.283c.16 0 .31.137.356.274L8.393 7.07h.08L11.491.218A.374.374 0 0111.824 0h.356c.172 0 .287.092.333.218l3.018 6.85h.08L17.286.47a.397.397 0 01.356-.275h2.284c.275 0 .424.195.355.47l-3.683 13.082a.369.369 0 01-.356.275h-.31a.38.38 0 01-.333-.218l-3.568-7.963h-.058l-3.545 7.963a.403.403 0 01-.333.218h-.31a.379.379 0 01-.356-.275L3.723.666m8.308 7.917l-2.594 5.818a1.663 1.663 0 01-.344.448v.004a1.466 1.466 0 01-.688.34l1.4 8.687c.091.16.263.16.367 0l1.79-2.72 1.64 2.708c.104.16.265.16.368 0l1.584-8.698a1.5 1.5 0 01-.832-.618l-.02-.03a1.405 1.405 0 01-.066-.12l-.609-1.366h-.003Z"></path></svg><span class="label"></span></a></li>
-							</ul>
-						</header>
-						<div class="content">
-							<span class="image fill" data-position="center"><img src="images/pic01.jpeg" alt="" /></span>
-						</div>
-					</section>
+    <!--About Me Section-->
+    <section id="aboutMe">
+        <!--Flex Container-->
+        <div class="container flex flex-col text-white px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+            <div class="flex flex.col space-y-12 md:w-1/2">
+                <!--Technical Toolbox-->
+                <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+                    Technical Toolbox
+                </h2>
+            </div>
 
-				<!-- Section -->
-					<section id="first">
-						<header>
-							<h2>Who am I?</h2>
-						</header>
-						<div class="content">
-							<p><strong>An absolute geek.</strong> Set to graduate with a BS Applied Computer Science from the University of Winnipeg, 
-								I am a motivated and ambitious individual who consistently demonstrates a professional work ethic. 
-								I am pursuing an employment opportunity where I can show off my passion for software development. 
-								I possess excellent communication skills, and have an aptitude for attention to detail and accuracy. 
-								I have a proven ability to work independently as well as an integral member within a team environment.</p>
-						</div>
-					</section>
+            <!--Numbered List-->
+            <div class="flex flex-col space-y-8 md:w-1/2">      
+                <!--List Item 1-->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!--Heading-->
+                    <div class="rounded-l-full bg-purple-700 md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-purple-700">
+                                <svg 
+                                    stroke="currentColor" 
+                                    fill="currentColor" 
+                                    stroke-width="0" 
+                                    viewBox="0 0 24 24" 
+                                    height="1.5em" 
+                                    width="1.25em" 
+                                    xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path fill-rule="nonzero" d="M17.457 3L21 3.003l.002 3.523-5.467 5.466 2.828 2.829 1.415-1.414 1.414 1.414-2.474 2.475 2.828 2.829-1.414 1.414-2.829-2.829-2.475 2.475-1.414-1.414 1.414-1.415-2.829-2.828-2.828 2.828 1.415 1.415-1.414 1.414-2.475-2.475-2.829 2.829-1.414-1.414 2.829-2.83-2.475-2.474 1.414-1.414 1.414 1.413 2.827-2.828-5.46-5.46L3 3l3.546.003 5.453 5.454L17.457 3zm-7.58 10.406L7.05 16.234l.708.707 2.827-2.828-.707-.707zm9.124-8.405h-.717l-4.87 4.869.706.707 4.881-4.879v-.697zm-14 0v.7l11.241 11.241.707-.707L5.716 5.002l-.715-.001z">
+                                            </path>
+                                        </g>
+                                </svg>
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                HTML5/CSS3/Tailwind CSS
+                            </h3>
+                        </div>
+                    </div>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Technical Toolbox</h2>
-						</header>
-						<div class="content">
-							<h3>Technologies I Work With</h3>
-							<h3>For Web Development</h3>
-							<ul class="feature-icons">
-								<li class="icon solid fa-code">HTML5</li>
-								<li class="icon solid fa-code">CSS3</li>
-								<li class="icon solid fa-code">React</li>
-								<li class="icon solid fa-code">Node.js</li>
-								<li class="icon solid fa-code">Express</li>
-								<li class="icon solid fa-code">Mongo DB</li>
-							</ul>
-							<h3>Other Development Tools</h3>
-							<ul class="feature-icons">
-								<li class="icon solid fa-code">C#</li>
-								<li class="icon solid fa-code">C++</li>
-								<li class="icon solid fa-code">SQL</li>
-								<li class="icon solid fa-code">Agile</li>
-								<li class="icon solid fa-code">Github</li>
-								<li class="icon solid fa-code">Object Oriented Programming</li>
-							</ul>
-						</div>
-					</section>
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            HTML5/CSS3/Tailwind CSS
+                        </h3>
+                    </div>
+                </div>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Projects</h2>
-						</header>
-						<div class="content">
-							<p><strong>I love creating & developing</strong> everything from small demos to full applications.</p>
-							<a id="projects"></a> <!--Anchor to return home below the portrait at the projects section-->
+                <!--List Item 2-->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!--Heading-->
+                    <div class="rounded-l-full bg-purple-700 md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-purple-700">
+                                <svg 
+                                stroke="currentColor" 
+                                fill="currentColor" 
+                                stroke-width="0" 
+                                viewBox="0 0 24 24" 
+                                height="1.5em" 
+                                width="1.25em" 
+                                xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path fill-rule="nonzero" d="M17.457 3L21 3.003l.002 3.523-5.467 5.466 2.828 2.829 1.415-1.414 1.414 1.414-2.474 2.475 2.828 2.829-1.414 1.414-2.829-2.829-2.475 2.475-1.414-1.414 1.414-1.415-2.829-2.828-2.828 2.828 1.415 1.415-1.414 1.414-2.475-2.475-2.829 2.829-1.414-1.414 2.829-2.83-2.475-2.474 1.414-1.414 1.414 1.413 2.827-2.828-5.46-5.46L3 3l3.546.003 5.453 5.454L17.457 3zm-7.58 10.406L7.05 16.234l.708.707 2.827-2.828-.707-.707zm9.124-8.405h-.717l-4.87 4.869.706.707 4.881-4.879v-.697zm-14 0v.7l11.241 11.241.707-.707L5.716 5.002l-.715-.001z">
+                                        </path>
+                                    </g>
+                            </svg>
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                React/JavaScript
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            React/JavaScript
+                        </h3>
+                    </div>
+                </div>
 
-							<!-- Section -->
-								<section>
-									<div class="content">
-										<div class="gallery">
-											<a href="booperchat.html" class="landscape"><img src="images/gallery/thumbs/booperchat.jpg" alt="BooperChat"/></a>
-											<a href="loginsystem.html" class="landscape"><img src="images/gallery/thumbs/ls.jpg" alt="Login System"/></a>
-											<a href="todolist.html" class="landscape"><img src="images/gallery/thumbs/todo.jpg" alt="Todo App"/></a>
-											<a href="notes.html" class="landscape"><img src="images/gallery/thumbs/notes.jpg" alt="Notes App"/></a>
-											<a href="weatherapp.html" class="landscape"><img src="images/gallery/thumbs/wa.jpg" alt="Weather App"/></a>
-											<a href="calculator.html" class="landscape"><img src="images/gallery/thumbs/cal.jpg" alt="Calculator"/></a>
-											<a href="pong.html" class="landscape"><img src="images/gallery/thumbs/pongtn.jpg" alt="PONG"/></a>
-											<a href="photographyWebsite.html" class="landscape"><img src="images/gallery/thumbs/wdd.jpg" alt="Web Design And Development Project"/></a>
-											<a href="systemAnalysisAndDesignProject.html" class="landscape"><img src="images/gallery/thumbs/saad.jpg" alt="System Analysis And Design Project"/></a>
-											<a href="codingchallenges.html"	class="landscape"><img src="images/gallery/thumbs/cc.jpg" alt="Coding Challenges"/></a>	
-										</div>
-									</div>	
-								</section>
+                <!--List Item 3-->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!--Heading-->
+                    <div class="rounded-l-full bg-purple-700 md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-purple-700">
+                                <svg
+                                stroke="currentColor" 
+                                fill="currentColor" 
+                                stroke-width="0" 
+                                viewBox="0 0 24 24" 
+                                height="1.5em" 
+                                width="1.25em" 
+                                xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path fill-rule="nonzero" d="M17.457 3L21 3.003l.002 3.523-5.467 5.466 2.828 2.829 1.415-1.414 1.414 1.414-2.474 2.475 2.828 2.829-1.414 1.414-2.829-2.829-2.475 2.475-1.414-1.414 1.414-1.415-2.829-2.828-2.828 2.828 1.415 1.415-1.414 1.414-2.475-2.475-2.829 2.829-1.414-1.414 2.829-2.83-2.475-2.474 1.414-1.414 1.414 1.413 2.827-2.828-5.46-5.46L3 3l3.546.003 5.453 5.454L17.457 3zm-7.58 10.406L7.05 16.234l.708.707 2.827-2.828-.707-.707zm9.124-8.405h-.717l-4.87 4.869.706.707 4.881-4.879v-.697zm-14 0v.7l11.241 11.241.707-.707L5.716 5.002l-.715-.001z">
+                                        </path>
+                                    </g>
+                            </svg>
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                Netlify/Firebase
+                            </h3>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Netlify/Firebase
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Hire Me</h2>
-						</header>
-						<div class="content">
-							<p><strong>If you like what you see here,</strong> feel free to download my resume, and please contact me via email so we can discuss why I'd make an excellent addition to your team.</p>
-							<ul class="actions">
-								<li><a href="images/Resume 2022.pdf" class="button primary large" target="_blank" download>My Resume</a></li>
-							</ul>
-						</div>
-					</section>
+    <!--Projects-->
+    <section id="projects">
+        <!--Container to heading and projects blocks-->
+        <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+            <!--Heading-->
+            <h2 class="text-4xl text-white font-bold text-center">
+                Projects
+            </h2>
+            <!--Projects 1-3 Container-->
+            <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+                <span class="p-3"></span>
+                <!--Project 1-->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gray-200 md:w-1/3">
+                    <img src="img/eldentheme.png" class="w-16 -mt-14" alt="Elden Theme">
+                    <h5 class="text-lg font-bold">
+                        <a 
+                            href="https://marketplace.visualstudio.com/items?itemName=TyCronin.eldentheme" 
+                            target="_blank"
+                            class="hover:text-purple-600">
+                            Elden Theme for VSCode
+                        </a>
+                    </h5>
+                    <p class="text-sm text-gray-500">
+                        A dark theme featuring the earth toned palette of Elden Ring cover art. 
+                        Git Gud and download or be maiden-less!
+                    </p>
+                </div>
+                <span class="p-3"></span>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Contact Me</h2>
-						</header>
-						<footer>
-							<ul class="items">
-								<li>
-									<h3>Email</h3>
-									<a href="mailto:tyccronin&#64gmail&#46com">tyccronin@gmail.com</a>
-								</li>
-								<li>
-									<h3>Internets</h3>
-									<ul class="icons">
-										<li ><a href="https://twitter.com/GeekGothicc" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.linkedin.com/in/tycronin/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/tyccronin" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									</ul>
-								</li>
-							</ul>
-						</footer>
-					</section>
+                <!--Project 2-->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gray-200 md:w-1/3">
+                    <img src="img/TodoList.png" class="w-16 -mt-14" alt="">
+                    <h5 class="text-lg font-bold">
+                        <a
+                            href="https://listy-todo.netlify.app/"
+                            target="_blank"
+                            class="hover:text-purple-600">
+                            Listy
+                        </a>
+                    </h5>
+                    <p class="text-sm text-gray-500">
+                        Created with React. Keep track of your tasks with my Todo Web-App, Listy!
+                    </p>
+                </div>
+                <span class="p-3"></span>
 
-				<!-- Copyright -->
-					<div class="copyright">&copy; Ty Cronin. All rights reserved. </div>
+                <!--Project 3-->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gray-200 md:w-1/3">
+                    <img src="img/booperchat.png" class="w-16 -mt-14" alt="Booper Chat">
+                    <h5 class="text-lg font-bold">
+                        <a 
+                            href="https://booper-chat.web.app/" 
+                            target="_blank"
+                            class="hover:text-purple-600">
+                            Booper Chat
+                        </a>
+                    </h5>
+                    <p class="text-sm text-gray-500">
+                        Made with React and Firebase. Log in with your Google account,
+                        and join the conversation with my cat and I!
+                    </p>
+                </div>
+                <span class="p-3"></span>
+            </div>
 
-			</div>
+            <!--Projects 4-6 Container-->
+            <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+                <span class="p-3"></span>
+                <!--Project 4-->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gray-200 md:w-1/3">
+                    <img src="img/beamsweather.png" class="w-16 -mt-14" alt="Beams Weather">
+                    <h5 class="text-lg font-bold">
+                        <a 
+                            href="https://beams-weather.netlify.app/"
+                            target="_blank"
+                            class="hover:text-purple-600">
+                            Beams Weather
+                        </a>
+                    </h5>
+                    <p class="text-sm text-gray-500">
+                        A simple weather app made with OpenWeatherMap API. 
+                        See what weather's beaming in your neck of the woods!
+                    </p>
+                </div>
+                <span class="p-3"></span>
+            
+                <!--Project 5-->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gray-200 md:w-1/3">
+                    <img src="img/swaggynotes.png" class="w-16 -mt-14" alt="Swaggy Notes">
+                    <h5 class="text-lg font-bold">
+                        <a 
+                            href="https://swaggy-notes.netlify.app/" 
+                            target="_blank"
+                            class="hover:text-purple-600">
+                            Swaggy Notes
+                        </a>
+                    </h5>
+                    <p class="text-sm text-gray-500">
+                        Got something on your mind? 
+                        Click the "+" to write it down and be swag!
+                    </p>
+                </div>
+                <span class="p-3"></span>
+            
+                <!--Project 6-->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gray-200 md:w-1/3">
+                    <img src="img/jerkpong.png" class="w-16 -mt-14" alt="Jerk Pong">
+                    <h5 class="text-lg font-bold">
+                        <a 
+                            href="https://jerk-pong.netlify.app/" 
+                            target="_blank"
+                            class="hover:text-purple-600">
+                            Jerk Pong
+                        </a>
+                    </h5>
+                    <p class="text-sm text-gray-500">
+                        Two player Pong! To control paddles: Keyboard player uses up and down arrow keys,
+                        Mouse player uses left and right click. If the ball turns back around and scores on you...it's a feature.
+                        Definitely a feature.
+                    </p>
+                </div>
+                <span class="p-3"></span>
+            </div>
+        </div>
+    </section><br><br>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!--Hire Me Section-->
+     <section id="cta" class="bg-purple-700">
+        <!--Flex Container-->
+        <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+            <!--Heading-->
+            <h2 class="font-bold leading-tight text-center text-white md:text-2xl md:max-w-xl md:text-left">
+                Let's discuss why I'd make an excellent addition to your development team.
+            </h2>
+            <!--Button-->
+            <div>
+                <a 
+                href="img/Resume 2022.pdf" 
+                class="p-3 px-6 pt-2 text-brightRed bg-cyan-400 rounded-full shadow-2xl
+                baseline hover:bg-cyan-200"
+                target="_blank"
+                download
+                >My Resume
+                </a>
+            </div>
+        </div>
+     </section>
 
-	</body>
+     <!--Footer-->
+     <footer class="bg-black">
+         <!--Flex Container-->
+         <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+             <!--Logo and social links container-->
+             <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">     
+                <div class="mx-auto my-6 text-center text-white md:hidden">
+                    Copyright Tyler Cronin &copy; 2022, All Rights Reserved
+                </div>
+                 <!--Social Links Container-->
+                 <div class="flex justify-center space-x-4">
+                    <!--Link 1-->
+                     <a href="https://twitter.com/GeekGothicc">
+                         <img src="img/twitter.png" alt="Twitter" class="h-8">
+                     </a>
+                    <!--Link 2-->
+                     <a href="https://www.linkedin.com/in/tycronin/">
+                         <img src="img/linkedin.png" alt="LinkedIn" class="h-8">
+                     </a>
+                    <!--Link 3-->
+                     <a href="https://github.com/tyccronin">
+                         <img src="img/github.png" alt="GitHub" class="h-8">
+                     </a>
+                 </div>
+             </div>
+             <!--Input Container-->
+             <div class="flex flex-col justify-between">
+                <div class="flex space-x-3">
+                    <div class="hidden text-white md:block">
+                        Copyright Tyler Cronin &copy; 2022, All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+</body>
 </html>

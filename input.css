@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+    background-color: rgb(20, 20, 20);
+    background-image: url('../img/bg-vertical.png'), url('../img/bg-horizontal.png'), linear-gradient(to bottom, #000000, #3a3a3a);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 400px, 600px;
+    background-position: 99% -5%, -15% 42%;
+}
+
+#hero h1{
+    text-shadow: 3px 3px 2px black;
+}
+#aboutMe h2{
+    text-shadow: 3px 3px 2px black;
+}
+#aboutMe h3{
+    text-shadow: 3px 3px 2px black;
+}
+#projects h2{
+    text-shadow: 3px 3px 2px black;
+}
+
+@media(max-width:576px){
+    body{
+        background-size: 200px, 0px;
+    }
+}
